@@ -4,7 +4,7 @@
   "description": "some tools",
   "main": "index.js",
   "scripts": {
-     "test": "nyc mocha",
+     "test": "echo \"Error: no test specified\" && exit 1",
      "coverage": "nyc report --reporter=text-lcov | coveralls"
    },
   "repository": {
