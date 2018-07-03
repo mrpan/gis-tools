@@ -1,0 +1,27 @@
+{
+  "name": "gis-tools",
+  "version": "1.0.0",
+  "description": "some tools",
+  "main": "index.js",
+  "scripts": {
+     "test": "nyc mocha",
+     "coverage": "nyc report --reporter=text-lcov | coveralls"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpan/gis-tools.git"
+  },
+  "keywords": [
+    "gis"
+  ],
+  "author": "mrpan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrpan/gis-tools/issues"
+  },
+  "homepage": "https://github.com/mrpan/gis-tools#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "nyc": "^12.0.2"
+  }
+}
