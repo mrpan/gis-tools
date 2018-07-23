@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc --require esm tape test/test-*.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "build": "rollup -c",
+    "watch": "rollup -cw"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   },
   "dependencies": {
     "esm": "^3.0.61",
+    "rollup-plugin-uglify": "^4.0.0",
     "tape": "^4.9.1"
   }
 }
